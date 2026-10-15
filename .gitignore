@@ -1,0 +1,32 @@
+# Node
+node_modules/
+dist/
+build/
+.npm/
+*.log
+
+# Cloudflare
+.wrangler/
+.mf/
+
+# Tauri & Rust
+target/
+src-tauri/target/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local
+.env
+.env.*
+!.env.example

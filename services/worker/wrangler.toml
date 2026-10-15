@@ -1,0 +1,12 @@
+name = "doomdesk-ai-worker"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "doomdesk-db"
+database_id = "local-doomdesk-db"
